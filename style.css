@@ -1,5 +1,7 @@
+/*-----ALLA SIDOR----------*/
 body {
-    font-family: Arial, sans-serif;
+	background-color: #fff;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
 }
 .container {
@@ -10,7 +12,66 @@ body {
 .header {
 	max-width: 100%;
 	height: auto;
-  }
+	background-color: #fff;
+	color: #f0cfaa;
+	text-align: center;
+
+}
+
+a:link { 
+	color: #000;
+	text-decoration: none;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:visited { 
+	color: #474747;
+}
+
+a:hover { 
+	color: #646464;
+	text-decoration: underline;
+}
+
+/*-------------STARTSIDA--------------- */
+.content { 
+	text-align: center;
+	align-items: center;
+}
+
+.logo { 
+	width: 50%;
+	height: auto;
+	align-items: center;
+	padding-top: 10em;
+	padding-bottom: 1em;
+
+}
+
+.links { 
+	padding: 2em;
+} 
+
+
+
+
+
+
+
+/*---------PRIVATPERSON------------*/
+
+
+
+
+/*---------FÖRETAG------------- */
+
+.logo-top {
+width: 40%;
+height: auto;
+align-items: center;
+padding-top: 2em;
+padding-bottom: 1em;
+}
 
 .title {
     text-align: center;
@@ -21,6 +82,7 @@ body {
     font-size: 18px;
     margin-bottom: 40px;
 }
+
 .service {
 	display: flex;
 	flex-direction: column;
