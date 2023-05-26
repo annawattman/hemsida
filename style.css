@@ -93,12 +93,32 @@ padding-bottom: 1em;
 .service-box {
 	flex-basis: 100%;
 	max-width: 400px;
-	background-color: #f2f2f2;
+/*	background-color: #a9e6b1; */
 	padding: 20px;
 	margin-bottom: 20px;
-	border-radius: 5px;
+	border-radius: 2px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	transition: box-shadow 0.2s;
+}
+
+.service-one {
+	background-color: #a9e6b1;
+}
+
+.service-two {
+	background-color: #d48c8c;
+}
+
+.service-three {
+	background-color: #a9bee6;
+}
+
+.service-four {
+	background-color: #e6d8a9;
+}
+
+.service-five {
+	background-color: #e6a9dc;
 }
 
 .service-box:hover {
