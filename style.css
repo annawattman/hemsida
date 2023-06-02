@@ -39,11 +39,17 @@ a:hover {
 	align-items: center;
 }
 
+.body-content { 
+	background-color: #f1f1f1;
+	text-align: center;
+	align-items: center;
+}
+
 .logo { 
 	width: 50%;
 	height: auto;
 	align-items: center;
-	padding-top: 10em;
+	padding-top: 7em;
 	padding-bottom: 1em;
 
 }
@@ -52,8 +58,17 @@ a:hover {
 	padding: 2em;
 } 
 
+.navbar { 
+	padding: 2em;
+	display: flex; 
+	justify-content: flex-end;
+	background-color: #f1f1f1;
+	height: 0.3em;
+} 
 
-
+.navbar-object { 
+	padding-right: 3em;
+} 
 
 
 
@@ -93,7 +108,7 @@ padding-bottom: 1em;
 .service-box {
 	flex-basis: 100%;
 	max-width: 400px;
-/*	background-color: #a9e6b1; */
+	background-color: #D9C6B8;
 	padding: 20px;
 	margin-bottom: 20px;
 	border-radius: 2px;
@@ -101,25 +116,6 @@ padding-bottom: 1em;
 	transition: box-shadow 0.2s;
 }
 
-.service-one {
-	background-color: #a9e6b1;
-}
-
-.service-two {
-	background-color: #d48c8c;
-}
-
-.service-three {
-	background-color: #a9bee6;
-}
-
-.service-four {
-	background-color: #e6d8a9;
-}
-
-.service-five {
-	background-color: #e6a9dc;
-}
 
 .service-box:hover {
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
